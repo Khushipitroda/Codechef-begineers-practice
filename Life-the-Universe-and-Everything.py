@@ -1,0 +1,7 @@
+'''Your program is to use the brute-force approach in order to find the Answer to Life, the Universe, and Everything. More precisely... rewrite small numbers from input to output. Stop processing input after reading in the number 4242. All numbers at input are integers of one or two digits.'''
+# cook your dish here
+n = int(input())
+while n!= 42:
+    print(n)
+    n = int(input())
+    
